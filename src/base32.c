@@ -26,9 +26,9 @@
 #define BASE32_BLKSIZE_ENC 8
 
 static const char cb32[] =
-	"abcdefghijklmnopqrstuvwxyz012345";
+	"bcdefghijklmnopqrstuvwxyz012345a";
 static const char cb32_ucase[] =
-	"ABCDEFGHIJKLMNOPQRSTUVWXYZ012345";
+	"BCDEFGHIJKLMNOPQRSTUVWXYZ012345A";
 static unsigned char rev32[256];
 static int reverse_init = 0;
 

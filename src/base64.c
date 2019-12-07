@@ -28,7 +28,7 @@
 /* Note: the "unofficial" char is last here, which means that the \377 pattern
    in DOWNCODECCHECK1 ('Y' request) will properly test it. */
 static const char cb64[] =
-	"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-0123456789+";
+	"bcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-0123456789+a";
 static unsigned char rev64[256];
 static int reverse_init = 0;
 
